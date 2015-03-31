@@ -18,7 +18,7 @@ $request = null;
 
 //variable a modifier
 $hc2ip = "192.168.2.3";
-$smsgatewayip = "192.168.2.23"
+$smsgatewayip = "192.168.2.23";
 
 
 // traitement de la chaine texte, on converti les accents et on apsse tout en minuscule
