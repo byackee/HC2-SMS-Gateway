@@ -53,6 +53,7 @@ foreach($devices as  $key =>$v1)
 	}
 }
 
+echo("http://" . $smsgatewayip . ":9090/sendsms?phone=" . $phone . "&text=" . urlencode($reponse) . "&password=" . $password);
 // on lance les actions et le retour par SMS sur le statut de l'action
 getUrl($url = "http://" . $login . ":" . $password . "@" . $hc2ip . $request);
 getUrl($url2 = "http://" . $smsgatewayip . ":9090/sendsms?phone=" . $phone . "&text=" . urlencode($reponse) . "&password=" . $password);
